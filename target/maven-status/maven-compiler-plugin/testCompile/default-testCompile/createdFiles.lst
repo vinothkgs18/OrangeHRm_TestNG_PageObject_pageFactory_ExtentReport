@@ -1,0 +1,7 @@
+org\OrangeHRM\TestCase\Verify_Admin_Module.class
+org\OrangeHRM\Utilities\ExtentManager.class
+org\OrangeHRM\Utilities\Utillities.class
+org\OrangeHRM\Utilities\RetryFaildCase.class
+org\OrangeHRM\Base\TestBase.class
+org\OrangeHRM\TestCase\VerifyLogin.class
+org\OrangeHRM\Rough\Demo1.class
