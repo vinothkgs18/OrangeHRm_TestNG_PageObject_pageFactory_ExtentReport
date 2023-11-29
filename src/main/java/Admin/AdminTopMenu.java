@@ -74,6 +74,15 @@ public class AdminTopMenu extends BasePage {
 		return new Work_Shift(driver);
 	}
 	
+	public General_Information goToOrganization_GeneralInformation() {
+		topMenus.get(2).click();
+		ExtentListeners.test.log(Status.INFO, "Navigate to Organization tab ");
+		SubItemLinks.get(0).click();
+		ExtentListeners.test.log(Status.INFO, "Navigate to General Information link ");
+		return new General_Information(driver);
+		
+	}
+	
 	
 	
 
